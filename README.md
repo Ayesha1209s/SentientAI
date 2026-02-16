@@ -45,6 +45,16 @@ User Input → Django Backend → ML Model → Sentiment Prediction → UI Displ
 
 ---
 
+##  🤖 Machine Learning Model
+
+The sentiment classifier was trained using:
+TF-IDF Vectorization
+Logistic Regression
+Multiple labeled sentiment datasets
+The trained model is serialized using Joblib for fast predictions
+
+---
+
 ## ⚙ How to Run Locally
 
 ### 1️⃣ Clone the Repository
@@ -71,14 +81,3 @@ http://127.0.0.1:8000
 
 
 
-🤖 Machine Learning Model
-
-The sentiment classifier was trained using:
-
-TF-IDF Vectorization
-
-Logistic Regression
-
-Multiple labeled sentiment datasets
-
-The trained model is serialized using Joblib for fast predictions
