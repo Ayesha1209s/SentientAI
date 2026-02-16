@@ -59,6 +59,10 @@ The trained model is serialized using Joblib for fast predictions
 
 ---
 
+## Author:UMMATUL AYESHA
+
+---
+
 ## ⚙ How to Run Locally
 
 ### 1️⃣ Clone the Repository
@@ -68,6 +72,7 @@ git clone https://github.com/YOUR_USERNAME/SentientAI.git
 cd SentientAI
 
 2️⃣ Create Virtual Environment
+
 python -m venv venv
 venv\Scripts\activate      # Windows
 source venv/bin/activate   # Mac/Linux
