@@ -2,17 +2,19 @@
 <html>
 <head>
     <title>Sentiment Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 
-<h2>Feedback Sentiment Analyzer</h2>
+<div class="container">
+    <h2>Feedback Sentiment Analyzer</h2>
 
-<textarea id="text" placeholder="Enter feedback"></textarea>
-<br><br>
+    <textarea id="text" placeholder="Enter feedback"></textarea>
 
-<button onclick="analyze()">Analyze</button>
+    <button onclick="analyze()">Analyze</button>
 
-<h3 id="result"></h3>
+    <h3 id="result"></h3>
+</div>
 
 <script>
 function analyze() {
