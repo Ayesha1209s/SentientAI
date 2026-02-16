@@ -48,9 +48,13 @@ User Input → Django Backend → ML Model → Sentiment Prediction → UI Displ
 ##  🤖 Machine Learning Model
 
 The sentiment classifier was trained using:
+
 TF-IDF Vectorization
+
 Logistic Regression
+
 Multiple labeled sentiment datasets
+
 The trained model is serialized using Joblib for fast predictions
 
 ---
