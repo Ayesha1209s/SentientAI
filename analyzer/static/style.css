@@ -53,4 +53,17 @@ button:hover {
     margin-top: 20px;
     font-weight: bold;
     font-size: 18px;
+    transition: 0.3s ease;
 }
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
+
+.neutral {
+    color: gray;
+}
+

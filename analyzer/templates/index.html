@@ -19,6 +19,10 @@
 <script>
 function analyze() {
     let text = document.getElementById("text").value;
+    let result = document.getElementById("result");
+    result.className = "";
+    result.innerText = "Analyzing...";
+
 
     fetch("/predict/", {
         method: "POST",
@@ -30,9 +34,23 @@ function analyze() {
     })
     .then(response => response.json())
     .then(data => {
-        document.getElementById("result").innerText =
-            "Sentiment: " + data.sentiment;
-    });
+    let result = document.getElementById("result");
+
+    result.className = "";  // reset old color
+
+    if (data.sentiment === "Positive") {
+        result.classList.add("positive");
+    } 
+    else if (data.sentiment === "Negative") {
+        result.classList.add("negative");
+    } 
+    else {
+        result.classList.add("neutral");
+    }
+
+    result.innerText = "Sentiment: " + data.sentiment;
+});
+
 }
 
 function getCookie(name) {
