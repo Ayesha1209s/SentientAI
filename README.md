@@ -88,5 +88,17 @@ Open in browser:
 
 http://127.0.0.1:8000
 
+```
+---
+
+## 📷 Application Preview
+
+![Positive Prediction Result](screenshots/positive.png)
+
+![Negative Prediction Result](screenshots/negative.png)
+
+![Neutral Prediction Result](screenshots/neutral.png)
+
+---
 
 
